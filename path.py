@@ -88,11 +88,11 @@ def main():
     xcomp4,ycomp4 =xyaxis(com_pathArrayList[3])
     xcomp5,ycomp5 =xyaxis(com_pathArrayList[4])
     
-    plt.plot(xcomp1,ycomp1,label="Line1") 
-    plt.plot(xcomp2,ycomp2,label="Line2") 
-    plt.plot(xcomp3,ycomp3,label="Line3") 
-    plt.plot(xcomp4,ycomp4,label="Line4") 
-    plt.plot(xcomp5,ycomp5,label="Line5") 
+    plt.plot(xcomp1,ycomp1,marker ='o',label="Path1") 
+    plt.plot(xcomp2,ycomp2,marker ='o',label="Path2") 
+    plt.plot(xcomp3,ycomp3,marker ='o',label="Path3") 
+    plt.plot(xcomp4,ycomp4,marker ='o',label="Path4") 
+    plt.plot(xcomp5,ycomp5,marker ='o',label="Path5") 
 
     plt.legend()
     plt.show()
