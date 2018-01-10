@@ -1,1 +1,1 @@
-# PyHWs
+# HW solutions EAS 503 UB Fall 2017
